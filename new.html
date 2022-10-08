@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        form {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <form data-pg-verify>
+        <h2>PostGrid Autocomplete </h1>
+        <input type="text" placeholder="Address Line 1"  data-pg-address-line1 />
+        <br />
+        <input type="text" placeholder="Address Line 2" data-pg-address-line2/>
+        <br />
+        <input type="text" placeholder="City"  data-pg-city/>
+        <br />
+        <input type="text" placeholder="Postal/ZIP code" data-pg-prov />
+        <br />
+        <input type="text" placeholder="Province/State"data-pg-pc />
+        <br />
+        <input type="text" placeholder="Country" data-pg-country/>
+        <br />
+    </form>
+</body>
+<script
+src="https://pg-prod-bucket-1.s3.amazonaws.com/scripts/autocomplete.min.js"
+data-pg-key="live_sk_411wb7qLjXSKeNpNQ75jMR"
+></script>   
+</body>
+</html>
